@@ -1,0 +1,12 @@
+* {
+  background: black;
+  color: #787878;
+  text-align: center;
+  top-padding: 7.5px;
+  line-height: calc(1em + 5px);
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  height: calc(1em - 6px);
+}
