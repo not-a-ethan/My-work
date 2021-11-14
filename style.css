@@ -7,13 +7,23 @@
   font-family: 'Roboto', sans-serif;
 }
 
-img {
+.logo {
   height: calc(1em - 6px);
 }
 
 .made{
   display: grid;
   grid-gap: 10px;
+}
+
+img {
+  max-width: 500px;
+  max-height: 250px;
+}
+
+video {
+  max-width: 500px;
+  max-height: 500px;
 }
 
 .prime_Check {
