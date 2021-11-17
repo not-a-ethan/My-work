@@ -26,6 +26,9 @@ video {
   max-height: 500px;
 }
 
+
+@media only screen and (min-width: 700px) {
+
 .prime_Check {
   grid-column-start: 1;
   grid-column-end: 1;
@@ -63,4 +66,5 @@ video {
 .text {
   grid-row: 1;
   grid-column: 2;
+}
 }
