@@ -18,7 +18,7 @@
 
 img {
   max-width: 500px;
-  max-height: 250px;
+  max-height: 500px;
 }
 
 video {
@@ -27,7 +27,7 @@ video {
 }
 
 
-@media only screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
 
 .prime_Check {
   grid-column-start: 1;
