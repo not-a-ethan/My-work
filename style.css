@@ -11,11 +11,6 @@
   height: calc(1em - 6px);
 }
 
-.made{
-  display: grid;
-  grid-gap: 10px;
-}
-
 img {
   max-width: 500px;
   max-height: 500px;
@@ -29,6 +24,11 @@ video {
 
 @media screen and (min-width: 600px) {
 
+.made{
+  display: grid;
+  grid-gap: 10px;
+}
+  
 .prime_Check {
   grid-column-start: 1;
   grid-row-start: 1;
