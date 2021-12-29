@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  margin: 0px 20px;
+}
+
 .logo {
   height: calc(1em - 6px);
 }
@@ -27,6 +31,7 @@ video {
 .made{
   display: grid;
   grid-gap: 10px;
+  margin: 0px; !importent
 }
   
 .prime_Check {
@@ -46,16 +51,23 @@ video {
   grid-row: 2;
   border: 2px #787878 solid;
 }
-  
-.this {
+
+.converter {
   grid-column: 2;
   grid-row: 2;
+  border: 2px #787878 solid;
+}
+  
+.this {
+  grid-column: 1;
+  grid-row: 3;
   border: 2px #787878 solid;
 }
 
 .Comunity {
   display: grid;
   grid-gap: 20px;
+  margin: 0px; !importent
 }
   
 .iframe {
