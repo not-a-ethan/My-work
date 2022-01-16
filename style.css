@@ -57,9 +57,15 @@ video {
   grid-row: 2;
   border: 2px #787878 solid;
 }
-  
-.this {
+
+.WWTBAM {
   grid-column: 1;
+  grid-row: 3;
+  border: 2px #787878 solid;
+}
+
+.this {
+  grid-column: 2;
   grid-row: 3;
   border: 2px #787878 solid;
 }
