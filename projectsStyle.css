@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+
+    .made{
+      display: grid;
+      grid-gap: 10px;
+      margin: 0px !important;
+    }
+      
+    .prime_Check {
+      grid-column-start: 1;
+      grid-row-start: 1;
+      border: 2px #787878 solid;
+    }
+    
+    .prime_list {
+      grid-column-start: 2;
+      grid-row-start: 1;
+      border: 2px #787878 solid;
+    }
+      
+    .generator {
+      grid-column: 1;
+      grid-row: 2;
+      border: 2px #787878 solid;
+    }
+    
+    .converter {
+      grid-column: 2;
+      grid-row: 2;
+      border: 2px #787878 solid;
+    }
+    
+    .WWTBAM {
+      grid-column: 1;
+      grid-row: 3;
+      border: 2px #787878 solid;
+    }
+    
+    .this {
+      grid-column: 2;
+      grid-row: 3;
+      border: 2px #787878 solid;
+    }
+}
