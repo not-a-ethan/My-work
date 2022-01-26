@@ -1,10 +1,22 @@
-* {
+:root {
   background: black;
   color: #919191;
   text-align: center;
   padding-top: 7.5px;
   line-height: calc(1em + 5px);
   font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #353535;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #353535;
 }
 
 p {
