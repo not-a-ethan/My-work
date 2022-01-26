@@ -5,9 +5,9 @@
   padding-top: 7.5px;
   line-height: calc(1em + 5px);
   font-family: 'Roboto', sans-serif;
-  margin: 5rem 0rem;
-  --scroll-bar-color: #d3d3d3;
-  --scroll-bar-background-color: #5a5a5a;
+  margin: 0rem 5rem;
+  --scroll-bar-color: #ff0000;
+  --scroll-bar-background-color: #001aff;
 }
 
 body {
