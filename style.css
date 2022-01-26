@@ -7,6 +7,12 @@
   font-family: 'Roboto', sans-serif;
   margin-left: 5rem;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body::-webkit-scrollbar {
   width: 0.25rem;
 }
