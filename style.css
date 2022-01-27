@@ -2,7 +2,6 @@
   background: black;
   --text-primary: #919191;
   text-align: center;
-  padding-top: 7.5px;
   line-height: calc(1em + 5px);
   font-family: 'Roboto', sans-serif;
   margin-left: 5rem;
@@ -47,7 +46,7 @@ body::-webkit-scrollbar-thumb {
   width: 5rem;
   left: 0px;
   height: 100%;
-  padding-top: 0px !important;
+  padding: 0px !important;
 }
 
 .navbar-nav {
@@ -112,6 +111,12 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition-speed);
 }
 
+/* Cool nav bar ^^ */
+
+main {
+  padding-top: 7.5px;
+}
+
 p {
   margin: 0px 20px;
 }
@@ -130,7 +135,6 @@ video {
   max-height: 500px;
 }
 
-/* Cool nav bar ^^ */
 
 @media screen and (min-width: 600px) {
   .made{
