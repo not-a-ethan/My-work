@@ -105,7 +105,7 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition-speed);
 }
 
-.logo {
+#nav-logo {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1rem;
