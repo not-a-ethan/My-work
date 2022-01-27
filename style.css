@@ -46,6 +46,8 @@ body::-webkit-scrollbar-thumb {
   transition: width 600ms ease;
   /* overflow: scroll; */
   width: 5rem;
+  left: 0px;
+  height: 100%;
 }
 
 .navbar-nav {
