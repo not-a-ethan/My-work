@@ -45,6 +45,7 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--bg-primary);
   transition: width 600ms ease;
   overflow: scroll;
+  width: 5rem;
 }
 
 .navbar-nav {
