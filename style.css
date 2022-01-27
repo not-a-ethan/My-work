@@ -114,10 +114,6 @@ body::-webkit-scrollbar-thumb {
   transition: var(--transition-speed);
 }
 
-.navbar:hover #nav-logo {
-  transform: rotate(-180deg);
-}
-
 p {
   margin: 0px 20px;
 }
