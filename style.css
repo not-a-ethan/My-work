@@ -8,6 +8,9 @@
   margin-left: 5rem;
   --scroll-bar-color: #4e4e4e;
   --scroll-bar-background-color: #949494;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
 }
 
 body {
