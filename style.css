@@ -6,8 +6,8 @@
   line-height: calc(1em + 5px);
   font-family: 'Roboto', sans-serif;
   margin: 0rem 5rem;
-  --scroll-bar-color: #001aff;
-  --scroll-bar-background-color: #ff0000;
+  --scroll-bar-color: #4e4e4e;
+  --scroll-bar-background-color: #949494;
 }
 
 body {
@@ -24,7 +24,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--scroll-bar-color);
+  background: var(--scroll-bar-background-color);
 }
 
 p {
