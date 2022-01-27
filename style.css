@@ -44,10 +44,10 @@ body::-webkit-scrollbar-thumb {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-  /* overflow: scroll; */
   width: 5rem;
   left: 0px;
   height: 100%;
+  padding-top: 0px !important;
 }
 
 .navbar-nav {
