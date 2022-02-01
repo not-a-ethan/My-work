@@ -152,32 +152,39 @@ video {
   }
   
   .prime_Check {
-    grid-column-start: 1;
-    grid-row-start: 1;
+    grid-column: 1;
+    grid-row: 1;
+    width: calc(50% - 2.5rem);
   }
   
   .prime_list {
-    grid-column-start: 2;
-    grid-row-start: 1;
+    grid-column: 2;
+    grid-row: 1;
+    width: calc(50% - 2.5rem);
   }
   
   .generator {
     grid-column: 1;
+    grid-row: 2;
+    width: calc(50% - 2.5rem);
   }
   
   .converter {
     grid-column: 2;
     grid-row: 2;
+    width: calc(50% - 2.5rem);
   }
   
   .WWTBAM {
     grid-column: 1;
     grid-row: 3;
+    width: calc(50% - 2.5rem);
   }
   
   .this {
     grid-column: 1;
     grid-row: 3;
+    width: calc(50% - 2.5rem);
   }
   
   .Comunity {
