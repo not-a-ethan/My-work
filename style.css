@@ -19,8 +19,6 @@
 /*  Custom scroll bar vv */
 
 body {
-  margin: 0;
-  padding: 0;
 }
 
 body::-webkit-scrollbar {
@@ -124,10 +122,6 @@ body::-webkit-scrollbar-thumb {
 
 main {
   padding-top: 7.5px;
-}
-
-p {
-  margin: 0px 20px;
 }
 
 .logo {
