@@ -148,8 +148,7 @@ video {
 @media screen and (min-width: 600px) {
   .made{
     display: grid;
-    grid-gap: 10px;
-    margin: 0px !important;
+    grid-gap: 5px;
   }
   
   .prime_Check {
@@ -184,7 +183,6 @@ video {
   .Comunity {
     display: grid;
     grid-gap: 20px;
-    margin: 0px !important;
   }
     
   .iframe {
