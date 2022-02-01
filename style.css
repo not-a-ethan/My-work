@@ -149,6 +149,7 @@ video {
   .made{
     display: grid;
     grid-gap: 5px;
+    width: calc(100% - 5rem);
   }
   
   .prime_Check {
