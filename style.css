@@ -140,7 +140,7 @@ video {
 
 
 @media screen and (min-width: 600px) {
-  .made{
+  .independent{
     display: grid;
     grid-gap: 5px;
   }
