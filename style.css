@@ -18,9 +18,6 @@
 
 /*  Custom scroll bar vv */
 
-body {
-}
-
 body::-webkit-scrollbar {
   width: 0.4rem;
 }
