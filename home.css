@@ -1,20 +1,3 @@
 .logo {
   height: calc(1em - 6px);
 }
-
-@media screen and (min-width: 580px) {
-  .Comunity {
-    display: grid;
-    grid-gap: 20px;
-  }
-    
-  .iframe {
-    grid-row: 1;
-    grid-column: 2;
-  }
-
-  .text {
-    grid-row: 1;
-    grid-column: 1;
-  }
-}
