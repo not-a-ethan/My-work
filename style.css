@@ -142,6 +142,10 @@ video {
     grid-gap: 5px;
   }
   
+  #project_grid_item {
+    max-width: calc(95rem / 2);
+  }
+
   .prime_Check {
     grid-column: 1;
     grid-row: 1;
@@ -168,7 +172,7 @@ video {
   }
   
   .this {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 3;
   }
   
