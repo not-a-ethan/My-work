@@ -1,0 +1,50 @@
+img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+video {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+@media screen and (min-width: 580px) {
+  .independent{
+    display: grid;
+    grid-gap: 5px;
+  }
+  
+  #project_grid_item {
+    max-width: calc(95rem / 2);
+  }
+
+  .prime_Check {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .prime_list {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .generator {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .converter {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .WWTBAM {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  
+  .this {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
