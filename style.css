@@ -136,7 +136,7 @@ video {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 580px) {
   .independent{
     display: grid;
     grid-gap: 5px;
