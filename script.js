@@ -1,16 +1,16 @@
 let CC = document.getElementById('CC')
 let discord = document.getElementById('discord')
 
-CC.style.visibility = 'visible'
-discord.style.visibility = 'hidden'
+CC.style.display = 'visible'
+discord.style.display = 'none'
 
 function change() {
-  if (CC.style.visibility == 'hidden') {
-    CC.style.visibility = 'visible'
-    discord.style.visibility = 'hidden'
+  if (CC.style.display == 'none') {
+    CC.style.display = 'flow'
+    discord.style.display = 'none'
   }else{
-    CC.style.visibility = 'hidden'
-    discord.style.visibility = 'visible'
+    CC.style.display = 'none'
+    discord.style.display = 'flow'
   }
 }
 
