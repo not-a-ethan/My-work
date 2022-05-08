@@ -8,4 +8,4 @@ function change() {
   }
 }
 
-image.onclick = change()
+image.onclick = change
