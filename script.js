@@ -1,21 +1,11 @@
-let CC = document.getElementById('CC')
-let discord = document.getElementById('discord')
-
-CC.style.display = 'visible'
-discord.style.display = 'none'
+let image = document.getElementById('image')
 
 function change() {
-  if (CC.style.display == 'none') {
-    CC.style.display = 'flow'
-    discord.style.display = 'none'
+  if (image.getAttribute(href) = "Images/CC.png"){
+    image.setAttribute(href, Images/discord.png)
   }else{
-    CC.style.display = 'none'
-    discord.style.display = 'flow'
+    image.setAttribute(href, Images/CC.png)
   }
 }
 
-CC.addEventListener('click', change)
-discord.addEventListener('click', change)
-
-CC.onclick = change()
-discord.onclick = change()
+image.onclick = change()
