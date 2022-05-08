@@ -2,9 +2,9 @@ let image = document.getElementById('image')
 
 function change() {
   if (image.getAttribute(href) = "Images/CC.png"){
-    image.setAttribute("src", "Images/discord.png")
+    image.src = "images/discord.png"
   }else{
-    image.setAttribute("src", "Images/CC.png")
+    image.src = "Images/CC.png"
   }
 }
 
