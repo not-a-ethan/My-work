@@ -104,7 +104,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Cool nav bar vv  */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 580px){
   html.fontawesome-i2svg-active.fontawesome-i2svg-complete {
     margin: 0;
 }
