@@ -14,7 +14,7 @@ I used HTML and CSS to build this webpage. Some projects on the page are made in
 
 ## Collaborators
 
-The only person that worked on it was me.
+[I (Ethan](https://github.com/ethan-master-coding) and all these [people](https://github.com/ethan-master-coding/My-work/graphs/contributors) have worked on the site.
 
 ## License
 
