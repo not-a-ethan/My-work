@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
  font-size: 2rem;
  width: 100%;
  margin: 1rem 0rem;
- padding: 2rem 0rem;
+ padding: 1.1rem 0rem;
 }
 
 .nav-item a:hover{
