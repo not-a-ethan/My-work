@@ -40,7 +40,8 @@ body::-webkit-scrollbar-thumb {
   transition: width 600ms ease;
   width: 5rem;
   left: 0px;
-  height: 100%;
+  top: 0px;
+  height: 100vh;
 }
 
 .navbar-nav {
