@@ -1,12 +1,12 @@
 let image = document.getElementById('image')
 
 function change() {
-  if (image.getAttribute("src") == "Images/CC.png"){
+  if (image.getAttribute("src") == "Images/PN.png"){
     image.src = "Images/Discord.png"
     image.alt = "Discord logo"
   }else{
-    image.src = "Images/CC.png"
-    image.alt = "Codecademy logo"
+    image.src = "Images/PN.png"
+    image.alt = "Project Nu logo"
   }
 }
 
