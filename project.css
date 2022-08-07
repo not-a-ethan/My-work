@@ -3,48 +3,47 @@ img {
   max-height: 500px;
 }
 
-video {
-  max-width: 500px;
-  max-height: 500px;
+.projects {
+  display: grid;
+  gap: 2.5vw;
 }
 
-@media screen and (min-width: 580px) {
-  .independent{
-    display: grid;
-    grid-gap: 5px;
-  }
-  
-  #project_grid_item {
-    max-width: calc(95rem / 2);
-  }
+.grid-item {
+  width: calc(50% - 5rem);
+}
 
-  .prime_Check {
-    grid-column: 1;
-    grid-row: 1;
-  }
+.item-1 {
+  grid-area: 1 / 1;
+}
+
+.item-2 {
+  grid-area: 1 / 2;
+}
+
+.gh-Button {
+  background-color: rgba(36, 36, 36, 0.39);
+  width: 13vw;
+  height: 7vh;
+
+  border-radius: 7.5%;
+  justify-content: center;
+  align-items: center; 
+
+  display: inline-flex;
+
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 225%;
+}
+
+.gh-Button:hover {
+  background-color: rgba(36, 36, 36, 0.7);
+  transform: scale(.95);
+  transition: all 0.3s ease-in-out;
   
-  .prime_list {
-    grid-column: 2;
-    grid-row: 1;
-  }
-  
-  .generator {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  
-  .converter {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  
-  .WWTBAM {
-    grid-column: 1;
-    grid-row: 3;
-  }
-  
-  .this {
-    grid-column: 2;
-    grid-row: 3;
-  }
+}
+
+.gh-Button:not(:hover) {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
 }
