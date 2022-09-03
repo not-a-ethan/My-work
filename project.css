@@ -45,6 +45,9 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
+li.gh-Button {
+  font-size: 100%;
+}
 summary > h2 {
   display: inline;
 }
