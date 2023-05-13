@@ -1,3 +1,5 @@
+> # ⚠️ This is depricated. Please view my new Repo https://github.com/not-a-ethan/not-a-ethan.github.io
+
 # My own website
 
 ## Description
